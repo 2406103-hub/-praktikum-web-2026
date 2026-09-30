@@ -17,3 +17,7 @@ Device ID	2DFBC458-CA17-4934-84EE-04F9179FC931
 Product ID	00330-80000-00000-AA698
 System type	64-bit operating system, x64-based processor
 Pen and touch	No pen or touch input is available for this display
+
+node.js : v24.21.0
+npm : 11.19.0
+git : git version 2.56.0.windows.1
