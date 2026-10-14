@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Modul 2 - Form Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulir Evaluasi dan Masukan untuk Rani</h1>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <center><h2>Bantu Rani Menjadi Lebih Baik</h2></center>
+            <form>
+
+                <p>
+                    <label for="nama_pengirim">Nama Lengkap
+                        Anda:</label><br>
+                    <input type="text" id="nama_pengirim" name="nama_pengirim">
+                </p>
+                <p>
+                    <label for="jenis_layanan">Apa hubungan Anda dengan Rani?</label><br>
+                    <select id="jenis_layanan" name="jenis_layanan">
+                        <option value="">-- Pilih --</option>
+                        <option value="app">Mantan hts</option>
+                        <option value="web">Teman</option>
+                        <option value="app">Teman Masa Kecil</option>
+                        <option value="app">Orang tua</option>
+                        <option value="other">Lain-lain</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="email_pengirim">Alamat
+                        Email:</label><br>
+                    <input type="email" id="email_pengirim" name="email_pengirim">
+                </p>
+                <p>
+                    <label for="pesan">Tuliskan kritik dan saran yang ingin anda sampaikan kepada Rani:</label><br>
+                    <textarea id="pesan" name="pesan" rows="6" cols="50"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Kirim Pesan</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 Rani nurcahyani</p>
+    </footer>
+</body>
+
+</html>
